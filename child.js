@@ -4,7 +4,7 @@ const child = spawn('dir', ['D:\Test'], { shell: true });
 child.stdout.on('data', (data) => {
     console.log(`stdout: ${data}`);
 });
- 
+ //test
 child.stderr.on('data', (data) => {
     console.error(`stderr: ${data}`);
 });
